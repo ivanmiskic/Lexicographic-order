@@ -143,8 +143,9 @@ void logic()
 }
 int main()
 {
-	std::cout << "\nExample wth integers\n" << std::endl;
+	std::cout << "\nExample with integers\n" << std::endl;
 	logic<int>();
-	std::cout << "\nExample wth strings\n" << std::endl;
+	std::cout << "\nExample with strings\n" << std::endl;
 	logic<std::string>();
+	system("PAUSE");
 }
